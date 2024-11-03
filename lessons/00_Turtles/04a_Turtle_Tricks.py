@@ -13,11 +13,13 @@ import turtle                           # Tell Python we want to work with the t
 turtle.setup (width=600, height=600)    # Set the size of the window
 
 tina = turtle.Turtle()                  # Create a turtle named tina
+tina.forward(285)
+tina.left(189)
+tina.forward(300)
+tina.right(120)
+tina.forward(57)
 
 # Use tina.forward() and tina.left() to draw a triangle
 # Make each side of the triangle a different color with 
 # tina.pencolor()
-
-... # Your code here
-
-turtle.exitonclick()                    # Close the window when we click on it
+turtle.exitonclick()                   # Close the window when we click on it
