@@ -19,13 +19,8 @@ tina = turtle.Turtle()                  # Create a turtle named tina
 # Use tina.begin_fill(), tina.end_fill(), and tina.fillcolor() to fill in the shapes
 
 
-... # Your code here
-tina.circle(40)
-tina.goto(29)
-tina.begin_fill(45)
-tina.end_fill(35)
-
-
+tina.shape('turtle')
+tina.circle(50)
 
 
 
