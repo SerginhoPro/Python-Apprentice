@@ -48,8 +48,8 @@ tina.begin_fill()
 tina.circle(101, steps=50)
 tina.end_fill()
 
-turtle.exitonclick()                    # Close the window when we click on it
-
+turtle.exitonclick                    # Close the window when we click on it
+()
 # Now you can try writing your own programs. Open
 # the next file 03_Turtle_Tricks.py
 
